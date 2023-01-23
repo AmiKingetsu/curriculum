@@ -12,15 +12,18 @@ public class Task1_5 {
           i++;
         }
         System.out.println();
+        
         for ( int u = 1; u <= 9; u ++ ) {
-  			for ( int j = 1; j <= 9; j ++ ) {
-   				System.out.print( "|" + u * j );
+
+          System.out.print(u +"||");
+
+  			  for ( int j = 1; j <= 9; j ++ ) {
+   				System.out.print(u * j + "|" );
             }
 
             System.out.println();
 
 
-    
     }
     
 }
